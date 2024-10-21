@@ -5,13 +5,13 @@
 
 # pole informatique 50 équipements
 
-- adresse reseau : 172.16.1.0/61
+- adresse reseau : 172.16.1.0/32
 - adresse debut de plage: 172.16.1.1
 - adresse fin de plage: 172.16.1.51
 - adresse broadcast: 172.16.1.52
 
-- decoupage symetriquees 64-5=61 (5 = nombre  debit par hôte)
-- le CIDR est donc de:61
+- decoupage symetriquees 32-2=30
+- le CIDR est donc de:32
 
 - decoupage asymetrique:
 - 2^6-2=64-2=62
@@ -27,7 +27,7 @@
 
 # pole developpement 12 equipements
 
-- adresse reseau : 172.16.1.0/61
+- adresse reseau : 172.16.1.0/32
 - adresse debut de plage: 172.16.1.53
 - adresse fin de plage: 172.16.1.65
 - adresse broadcast: 172.16.1.66
@@ -44,13 +44,10 @@
 
 # pole Administratif 20 equipements
 
-- adresse reseau : 172.16.1.0/61
+- adresse reseau : 172.16.1.0/32
 - adresse debut de plage: 172.16.1.67
 - adresse fin de plage: 172.16.1.87
 - adresse broadcast: 172.16.1.88
-
-- decoupage symetriquees: 32-5=27   (5 = nombre  debit par hôte)
-- le CIDR est donc de:32
 
 - decoupage asymetrique:
 - 2^5=32-2=30
@@ -65,7 +62,7 @@
 
 # pole technique 15 equipements
 
-- adresse reseau : 172.16.1.0/61
+- adresse reseau : 172.16.1.0/32
 - adresse debut de plage: 172.16.1.89
 - adresse fin de plage: 172.16.1.104
 - adresse broadcast: 172.16.1.105
