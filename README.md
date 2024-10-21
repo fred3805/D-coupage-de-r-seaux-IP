@@ -17,7 +17,7 @@
 - 2^6-2=64-2=62
 - sous-reseaux= 62 hôtes
 
-- adresse reseau : 172.16.1.0/62
+- adresse reseau : 172.16.1.0/32
 - adresse debut de plage: 172.16.1.1
 - adresse fin de plage: 172.16.1.51
 - adresse broadcast: 172.16.1.52
@@ -37,7 +37,7 @@
 - 2^4=16-2=14
 - sous-reseaux: 14 hôtes
 
-- adresse reseau : 172.16.1.53/14
+- adresse reseau : 172.16.1.53/32
 - adresse debut de plage: 172.16.1.54
 - adresse fin de plage: 172.16.1.66
 - adresse broadcast: 172.16.1.67
@@ -53,7 +53,7 @@
 - 2^5=32-2=30
 - sous-reseaux: 30
 
-- adresse reseau : 172.16.1.68/30
+- adresse reseau : 172.16.1.68/32
 - adresse debut de plage: 172.16.1.69
 - adresse fin de plage: 172.16.1.89
 - adresse broadcast: 172.16.1.90
@@ -68,14 +68,11 @@
 - adresse broadcast: 172.16.1.105
 
 
-- decoupage symetriquees: 16-5=11   (5 = nombre  debit par hôte)
-- le CIDR est donc de:16
-
 -decoupage asymetrique:
 - 2^4=16-2=14
 - sous-reseaux: 14
 
-- adresse reseau : 172.16.1.91/14
+- adresse reseau : 172.16.1.91/32
 - adresse debut de plage: 172.16.1.92
 - adresse fin de plage: 172.16.1.107
 - adresse broadcast: 172.16.1.108
