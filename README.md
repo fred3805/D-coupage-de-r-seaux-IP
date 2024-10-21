@@ -10,7 +10,6 @@
 - adresse fin de plage: 172.16.1.51
 - adresse broadcast: 172.16.1.52
 
-- decoupage symetriquees 32-2=30
 - le CIDR est donc de:32
 
 - decoupage asymetrique:
